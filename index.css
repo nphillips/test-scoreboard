@@ -1,63 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=VT323&display=swap");
 body {
-    margin: 0;
-    background: url(https://images.pexels.com/photos/269948/pexels-photo-269948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: contain;
-    color:#fff;
-    min-height: 100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  margin: 0;
+  background: #0a140c
+    url(https://images.pexels.com/photos/269948/pexels-photo-269948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    padding:2vw;
-    gap: 6vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 2vw;
+  gap: 6vw;
 }
 .buttons {
-    display:flex;
-    gap: 0 2vw;
+  display: flex;
+  gap: 0 2vw;
 }
 h3 {
-    font-family: 'open sans';
-    font-size: 9vw;
-    margin-bottom: 2vw;
-    margin-top:0;
-    text-shadow: .5vw .5vw .5vw  rgba(0, 0, 0, 0.5) ;
+  font-family: "open sans";
+  font-size: 9vw;
+  margin-bottom: 2vw;
+  margin-top: 0;
+  text-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.5);
 }
 .col {
-    flex: 1;
- 
+  flex: 1;
 }
 
 button {
-        cursor:pointer;
+  cursor: pointer;
 
-color: #B0C4DE;
-background: rgba(176, 196, 222, 0.5) ;
+  color: #b0c4de;
+  background: rgba(176, 196, 222, 0.5);
 
--webkit-appearance: none;
-border: .25vw solid #B0C4DE;
-border-radius:1vw;
-font-size: 6vw;
-font-family: 'VT323', monospace;
-flex:1;
+  -webkit-appearance: none;
+  border: 0.25vw solid #b0c4de;
+  border-radius: 1vw;
+  font-size: 6vw;
+  font-family: "VT323", monospace;
+  flex: 1;
 }
 button:hover {
-    background: #B0C4DE;
-    color: #19244D;
-    transition: all .2s ease-in-out;
+  background: #b0c4de;
+  color: #19244d;
+  transition: all 0.2s ease-in-out;
 }
 .main-num {
-font-size: 24vw;
-line-height:1;
-background: rgba(0, 0, 0, .8);
-font-family: 'VT323', monospace;
-color: #F94F6D;
-border-radius: 1vw;
-display: flex;
-justify-content:center;
-margin-bottom: 2vw;
+  font-size: 24vw;
+  line-height: 1;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: "VT323", monospace;
+  color: #f94f6d;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vw;
 }
